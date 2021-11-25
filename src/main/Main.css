@@ -1,0 +1,79 @@
+.itemIcon {
+  height: 100px;
+  width: 100px;
+  padding: 5px;
+  border-radius: 10%;
+}
+
+.standardImage {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 1.5%;
+}
+
+.labelHeader {
+  font-size: larger;
+}
+
+.belowHeaderText {
+  font-size: medium;
+  color: gray;
+}
+
+.belowHeaderTextRightAligned {
+  text-align: end;
+  float: right;
+  font-size: medium;
+  color: gray;
+}
+
+.clearButton {
+  --padding-bottom  : 0px;
+  --padding-end     : 0px;
+  --padding-start   : 0px;
+  --padding-top     : 0px;
+}
+
+.leftAligned {
+  text-align: start;
+  float: left;
+  /* align-items: flex-start; */
+}
+
+.rightAligned {
+  text-align: end;
+  float: right;
+  /* align-items: flex-end; */
+}
+
+.centerAligned {
+  text-align: center;
+  align-items: center;
+}
+
+.curvedBottomImage {
+  border-bottom-left-radius: 4%;
+  border-bottom-right-radius: 4%;
+}
+
+.curvedImage {
+  border-radius: 1%;
+}
+
+.textOverlayBlack{
+  width: 100%;
+  height: 60px;
+  position: absolute;
+  z-index: 99;
+  bottom: 0px;
+  opacity: 0.5;
+  background: #000;
+  color: #fff;
+
+}
+
+.invisible{
+  opacity: 0;
+}

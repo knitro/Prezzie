@@ -1,0 +1,36 @@
+.welcomeTextLogoDiv {
+  /*Positioning*/
+  position: absolute;
+  width: 100%;
+  top: 10%;
+
+  /*Aligning*/
+  text-align: center;
+
+  /*Misc*/
+  font-size: xx-large;
+}
+
+.welcomeTitle {
+  font-size: xx-large;
+}
+
+.welcomeSubtitle {
+  font-size: large;
+}
+
+.welcomeGetStarted {
+
+  /*Positioning*/
+  position: absolute;
+  left: 5%;
+  width: 90%;
+  bottom: 5%;
+
+  /*Aligning*/
+  text-align: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  justify-content: 'center';
+}
