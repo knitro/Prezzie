@@ -32,7 +32,7 @@ const IntroPage: React.FC<Props> = (props : Props) => {
 
   return (
     <IonPage>
-      <IonContent className="ion-content.introPage_background">
+      <IonContent className="introPage_background">
 
         <div className="introduction_headerDiv">
           <IonImg src={image} />
