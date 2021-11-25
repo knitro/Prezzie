@@ -1,0 +1,15 @@
+.introduction_headerDiv {
+    /*Positioning*/
+    position: absolute;
+    width: 100%;
+    top: 0%;
+  
+    /*Aligning*/
+    text-align: center;
+
+    font-size: xx-large;
+}
+
+ion-content.introPage_background{
+  --background: url(./background.png) 0 0/100% 100% no-repeat;
+}
