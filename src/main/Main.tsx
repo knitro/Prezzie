@@ -11,7 +11,7 @@ import History from '../logic/history/History';
 /* Page Imports */
 ////////////////////////////////////////////////////////////////////////////////////
 
-import Welcome from '../pages/Welcome/Welcome';
+import Welcome from '../pages/welcome/Welcome';
 
 ////////////////////////////////////////////////////////////////////////////////////
 /* Component Imports */
@@ -24,6 +24,7 @@ import SideBar from '../components/general/SideBar/SideBar';
 ////////////////////////////////////////////////////////////////////////////////////
 
 import "./Main.css"
+import Login from '../pages/login/Login';
 
 ////////////////////////////////////////////////////////////////////////////////////
 /* Main Component*/
@@ -38,7 +39,9 @@ const Main = () => {
         <IonPage id="main">
           <IonRouterOutlet>
 
-            <Route path="/welcome" component={Welcome}  exact={true}/>
+            <Route path="/welcome"    component={Welcome}     exact={true}/>
+            <Route path="/login"      component={Login}       exact={true}/>
+            {/* <Route path="/first-time" component={FirstTime}   exact={true}/> */}
 
             {/*Blank Reroute*/}
             <Route path="/" render={() => <Redirect to="/welcome" />} exact={true} />                           

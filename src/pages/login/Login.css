@@ -1,0 +1,9 @@
+.login_buttons {
+    /*Positioning*/
+    position: absolute;
+    width: 100%;
+    top: 70%;
+
+    /*Aligning*/
+    text-align: center;
+}
