@@ -2,7 +2,7 @@ import React from 'react';
 import { IonButton, IonLabel } from '@ionic/react';
 import "./Welcome.css"
 import IntroPage from '../../layouts/IntroPage/IntroPage';
-import { LinkToSuggestLogin } from '../../logic/links/Links';
+import { LinkToLogin } from '../../logic/links/Links';
 
 ////////////////////////////////////////////////////////
 /*Props and State*/
@@ -26,7 +26,7 @@ const Welcome: React.FC = (props : Props) => {
       <div className="welcomeGetStarted">
 
         <IonButton expand="block" size="large" color="light" shape="round"
-          onClick={LinkToSuggestLogin}
+          onClick={LinkToLogin}
         >
           <IonLabel>Get Started</IonLabel>
         </IonButton>

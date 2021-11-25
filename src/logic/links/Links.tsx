@@ -19,8 +19,8 @@ export const goToWelcome = () => {
 /**
  * Redirects to the Suggest Login Page
  */
-export const LinkToSuggestLogin = () => {
-  History.push("/suggest-login")
+export const LinkToLogin = () => {
+  History.push("/login")
 }
 
 /**
