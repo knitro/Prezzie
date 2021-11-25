@@ -1,6 +1,6 @@
 import React from 'react';
 import { IonCheckbox, IonIcon, IonItem, IonLabel, IonRange, IonSelect, IonSelectOption, IonText } from "@ionic/react";
-import { convertSnakeToEnglish } from '../../../logic/StringHelper/StringHelper';
+import { convertSnakeToEnglish } from '../../../logic/stringHelper/StringHelper';
 import { v4 } from 'uuid';
 
 ////////////////////////////////////////////////////////
