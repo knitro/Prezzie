@@ -1,6 +1,6 @@
 import React from 'react';
 import { IonContent, IonImg, IonPage } from '@ionic/react';
-import "./Introduction.css"
+import "./IntroPage.css"
 
 ////////////////////////////////////////////////////////
 /*Props and State*/
